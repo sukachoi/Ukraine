@@ -8,3 +8,5 @@ if __name__=="__main__":
 
     mwordcloud = mwc.Mwc()
     mwordcloud.execute()
+
+    

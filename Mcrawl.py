@@ -12,8 +12,8 @@ from random import *
 
 class Mcrawl():
 
-
     def __init__(self):
+        #div가 1이면 네이버지식인 크롤링, 2이면 네이버 블로그 ...
         self.options = webdriver.ChromeOptions()
         self.options.add_experimental_option("excludeSwitches", ["enable-logging"])
         #browser = webdriver.Chrome(options=options)
